@@ -1,0 +1,81 @@
+body {
+  background: #d6b84f;
+}
+
+.box-note {
+  width: 75%;
+  height: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7);
+  background: #333;
+}
+
+.menu {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #555;
+  margin-top: 30px;
+  position: relative;
+}
+
+.name {
+  margin-top: -7px;
+  margin-left: 400px;
+  text-align: center;
+  color: white;
+  font-family: arial;
+  position: absolute;
+}
+
+.menu-close {
+  float: right;
+  font-size: 20px;
+}
+
+.menu-close span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-bar span {
+  color: white;
+  font-family: arial;
+  margin-top: -10px;
+  margin-left: 21px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  font-size: 30px;
+  color: white;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+::selection {
+  background: #00ffcb;
+}
+
+::-moz-selection {
+  background: #00ffcb;
+}
+
+::-webkit-selection {
+  background: #00ffcb;
+}
